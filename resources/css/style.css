@@ -99,20 +99,20 @@ header {
     text-align: center;
 }
 .bannersplash {
-    border: 2px red solid;
+    /*border: 2px red solid;*/
     width: 25vw;
     height: 225px;
     position: relative;
     top: 180px;
     left: 68vw;
-    background-color: rgba(241, 171, 154, 0.99);
+    background-color: rgb(247, 205, 199);
     border-radius:15px;
     display: flex;
     flex-direction: column;
     font-weight: bold;
 }
 .bannersplash .bannertext{
-    border: 1px yellow solid;
+    /*border: 1px yellow solid;*/
     height: 175px;
     width: 100%;
     font-size: 4vw;
@@ -145,7 +145,7 @@ header {
     opacity: 0.99;
 }
 .content .mission{
-    border: 2px blue solid;
+    /*border: 2px blue solid;*/
     height: 150px;
     width: 100%;
     text-align: center;
@@ -248,5 +248,5 @@ footer {
     height: 50px;
     position: relative;
     top: 110px;
-    background-color: rgba(241, 171, 154, 0.5);
+    background-color: rgb(247, 205, 199);
 }
