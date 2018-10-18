@@ -211,17 +211,34 @@ header {
     text-align: center;
     font-weight: bold;
 }
-.maps h1{
+/*.maps h1{
     font-size: 30px;
+}*/
+.maps .address{
+    border: 2px purple solid;
+    height: 65px;
+    width: 100%;
+    margin-top: 7px;
 }
 .maps p{
     font-size: 26px;
+    padding-top: 7px;
+}
+.maps .icons{
+    border: 2px green solid;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 #google{
-    height: 30%;
+    height: 100%;
 }
 #park{
-    height: 20%;
+    height: 60%;
 }
 
 /* FOOTER */
